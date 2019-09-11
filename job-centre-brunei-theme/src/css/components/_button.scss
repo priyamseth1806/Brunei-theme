@@ -1,0 +1,101 @@
+.btn-medium{
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background: #a6e043;
+    color: #0e1427d4;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    border: none;
+    &:hover{
+            background: #fdd014;
+            color: #000000;
+            -webkit-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            -ms-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            transition: all 0.5s;
+    }
+    
+}/* .btn End */
+.btn-small{
+        display: inline-block;
+        width: 150px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        background: #a6e043;
+        color: #0e1427d4;
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        transition: all 0.5s;
+        border: none;
+        &:hover{
+            background: #fdd014;
+            color: #000000;
+            -webkit-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            -ms-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            transition: all 0.5s;
+    }
+}
+
+.btn-xsmall {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background: #a6e043;
+    color: #0e1427d4;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    border: none;
+    &:hover{
+            background: #fdd014;
+            color: #000000;
+            -webkit-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            -ms-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            transition: all 0.5s;
+    }
+}
+.btn-border{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background: transparent;
+    color: #353b4a;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid #353b4a;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    &:hover {
+        background-color: #0e1427d4;
+        color: #fff;
+    }
+}
