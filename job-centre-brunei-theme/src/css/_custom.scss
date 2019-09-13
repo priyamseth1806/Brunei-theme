@@ -1,0 +1,34 @@
+
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+
+
+/* inject:imports */
+
+@import 'liferay-font-awesome/scss/font-awesome';
+@import 'liferay-font-awesome/scss/glyphicons';
+@import 'font';
+
+
+/* endinject */
+
+.lf {
+    @import 'global';
+    @import 'reset';
+    #wrapper {
+        padding-top: 0;
+        @import 'header';
+        @import "variables/button";                		
+        @import "components/breadcrum";                
+        @import "footer";                		
+        @import "variables/table";                		
+        @import "variables/colors";
+        @import "vendor/owl.theme.default";
+        @import "vendor/owl.carousel";
+        @import "components/floatingBtn";
+        @import "components/trending-jobs";
+        @import "pages/banner";
+    }
+}
+
+
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */

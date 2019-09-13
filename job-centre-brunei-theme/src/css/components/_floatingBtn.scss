@@ -1,0 +1,109 @@
+$color_1: #333;
+$color_2: #ffffff;
+$background_color_1: transparent;
+
+.floatingButtonWrap {
+	display: block;
+	position: fixed;
+	bottom: 45px;
+	right: 30px;
+	z-index: 999999999;
+}
+.floatingButtonInner {
+	position: relative;
+}
+.floatingButton {
+	display: block;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	background: #a6e043;
+	color: $color_1;
+	line-height: 50px;
+	position: absolute;
+	border-radius: 50% 50%;
+	bottom: 0px;
+	right: 0px;
+	opacity: 1;
+	transition: all 0.4s;
+	&:hover {
+		background: #fdd014;
+		opacity: 1;
+		color: $color_1;
+	}
+	.fa {
+		font-size: 22px !important;
+		transform: rotate(0deg);
+		transition: all 0.4s;
+	}
+	&:focus {
+		opacity: 1;
+		color: $color_1;
+	}
+	&:active {
+		opacity: 1;
+		color: $color_1;
+	}
+}
+.floatingButton.open {
+	opacity: 1;
+	color: $color_1;
+	.fa {
+		transform: rotate(270deg);
+	}
+	.fa-ellipsis-v {
+		&:before {
+			content: "\f00d";
+		}
+	}
+}
+.jp_img_btn {
+	img {
+		border-radius: 50%;
+		width: 40px;
+		height: 40px;
+	}
+	background-color: $background_color_1;
+	&:hover {
+		background-color: $background_color_1;
+	}
+}
+.floatingMenu {
+	position: absolute;
+	bottom: 60px;
+	right: 0px;
+	display: none;
+	li {
+		width: 100%;
+		float: right;
+		list-style: none;
+		text-align: right;
+		margin-bottom: 5px;
+		a {
+			padding: 8px 15px;
+			display: inline-block;
+			background: #0e1427;
+			color: $color_2;
+			border-radius: 5px;
+			overflow: hidden;
+			white-space: nowrap;
+			transition: all 0.4s;
+			-webkit-box-shadow: 1px 3px 5px rgba(14, 20, 39, 0.5);
+			box-shadow: 1px 3px 5px rgba(14, 20, 39, 0.5);
+			i.fa {
+				margin-left: 8px;
+				padding: 4px;
+				border: 2px solid #fff;
+				width: 28px;
+				height: 28px;
+				text-align: center;
+                border-radius: 50%;
+                display: inline-block;
+			}
+			&:hover {
+				margin-right: 10px;
+				text-decoration: none;
+			}
+		}
+	}
+}
