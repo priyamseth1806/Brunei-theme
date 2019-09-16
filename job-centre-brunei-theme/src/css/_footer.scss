@@ -1,5 +1,374 @@
 .footer-sec{
-	
+	.jp_main_footer_img_wrapper {
+        background: url('${BackgroundImage.getData()}') 50% 0 repeat-y;
+        background-position: center 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 40px;
+        float: left;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        border-bottom: 2px solid #a6e043;
+    }
+    
+    .portlet-journal-content .journal-content-article img, .portlet-journal-content .journal-content-article .cke_widget_image{
+    max-width:130px;
+    }
+    
+    .jp_newsletter_img_overlay_wrapper {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        bottom: 0%;
+        background-color: rgba(14, 20, 39, 0.92);
+        
+    }
+    
+    .jp_footer_logo_wrapper {
+        float: left;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+        border-bottom: 1px solid #ffffff1a;
+    }
+    
+    .jp_footer_three_sec_main_wrapper {
+        width: 100%;
+    }
+    
+    .jp_footer_main_wrapper {
+        float: left;
+        width: 100%;
+        padding-top: 50px;
+    }
+    
+    .jp_footer_logo {
+        display: inline-block;
+    }
+    
+    .jp_footer_first_cont img {
+        max-width: 130px;
+    }
+    
+    .jp_footer_first_cont address {
+        margin-top: 20px;
+        color: #FFF;
+        font-size: 14px;
+    }
+    
+    .jp_footer_first_cont address p:first-child {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .jp_footer_first_cont a {
+        color: #ffffff8c;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    
+    .jp_footer_first_cont a:hover {
+        color: #f36969;
+        text-decoration:none;
+    }
+    
+    .jp_footer_first_cont p {
+        margin: 0;
+        color: #ffffffd9;
+    }
+    
+    .jp_footer_first_cont .contact-details {
+        margin-top: 10px;
+    }
+    
+    .jp_footer_candidate h2 {
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: 900;
+        text-transform: uppercase;
+        position: relative;
+    }
+    
+    .jp_footer_candidate h2:after {
+        content: '';
+        border: 1px solid #a6e043;
+        width: 30px;
+        position: absolute;
+        bottom: -15px;
+        left: 11px;
+    }
+    
+    .jp_footer_candidate h2:before {
+        content: '';
+        border: 1px solid #a6e043;
+        width: 8px;
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+    }
+    
+    .jp_footer_candidate ul {
+        float: left;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 60px;
+    }
+    
+    .jp_footer_candidate ul li {
+        list-style: none;
+        float: left;
+        width: 100%;
+        padding: 0px 0px 15px 0px;
+    }
+    
+    .jp_footer_candidate ul li a {
+        float: left;
+        width: auto;
+        text-transform: capitalize;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.8509803921568627);
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    
+    /*.navbar-nav .nav-item, .navbar-nav .nav-underline .tab, .nav-underline .navbar-nav .tab{
+    padding-bottom:0px;
+    }*/
+    
+    .jp_footer_candidate ul li a i {
+        padding-right: 10px;
+        color: #f36969;
+    }
+    
+    .jp_footer_candidate ul li a:hover {
+        color: #a6e043;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    
+    @media(max-width:767px){
+        .jp_footer_candidate{
+            margin-top:30px
+        }
+    }
+    
+    .jp_bottom_footer_Wrapper {
+        width: 100%;
+        font-size: 12px;
+        border-top: 1px solid #ffffff1a;
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        z-index: 1;
+    }
+    
+    .jp_bottom_footer_left_cont p {
+        color: #ffffff8c;
+        margin-top: 12px;
+    }
+    
+    @media(max-width:767px){
+        .jp_bottom_footer_left_cont p{
+            text-align:center;
+        }
+    
+    }
+    
+    .jp_bottom_footer_disclaimer {
+        margin-top: 12px;
+        font-size: 12px;
+        text-align: right;
+    }
+    
+    .jp_bottom_footer_disclaimer a {
+        color: #ffffff8c;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    
+    .jp_bottom_footer_disclaimer a:hover {
+        color: #a6e043;
+        text-decoration:none;
+    }
+    
+    .jp_bottom_footer_disclaimer a::after {
+        content: '|';
+        margin: 0 10px;
+    }
+    
+    .jp_bottom_footer_disclaimer a:hover::after {
+        color: #ffffff8c;
+    }
+    
+    .jp_bottom_footer_disclaimer a:last-child::after {
+        content: none;
+    }
+    
+    .jp_bottom_footer_right_cont ul {
+        padding-right: 0;
+        padding-left: 0px;
+    }
+    
+    @media(max-width:990px){
+        .jp_bottom_footer_right_cont ul{
+            margin:40px 0;
+        }
+    }
+    
+    .jp_bottom_footer_right_cont li {
+        display: inline-block;
+        margin-left: 10px;
+    }
+    
+    .jp_bottom_footer_right_cont li:first-child {
+        margin-left: 0;
+    }
+    
+    .jp_bottom_footer_right_cont li a {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.10196078431372549);
+        text-align: center;
+        line-height: 50px;
+        color: rgba(255, 255, 255, 0.5490196078431373);
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    
+    .jp_bottom_footer_right_cont li a:hover {
+        background: #a6e043;
+        color: #0e1427d4;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    
+    .jp_bottom_footer_left_cont {
+        position: relative;
+    }
+    
+    #return-to-top {
+        position: absolute;
+        float: left;
+        bottom: 20px;
+        right: -17px;
+        top: 0;
+        background: transparent;
+        border: 1px solid #ffffff2e;
+        width: 52px;
+        height: 50px;
+        display: block;
+        text-decoration: none;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        display: none;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        z-index: 1000;
+    }
+    
+    #return-to-top i {
+        color: #ffffff8c;
+        margin: 0;
+        position: relative;
+        left: 16px;
+        top: 8px;
+        font-size: 30px;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    
+    #return-to-top:hover i {
+        top: 5px;
+        color: #ffffff;
+    }
+    
+    #return-to-top:hover {
+        background: #a6e043;
+        border: 1px solid transparent;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    
+    .footer_links li a:before{
+        font-family: "FontAwesome";
+       content: "\f0da";
+       display: inline-block;
+       padding-right: 15px;
+       font-weight:900;
+       color:#f36969;
+       font-size:inherit;
+    }
+    
+    section#portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footer_menu1 .portlet-content{
+        border-width:0;
+    }
+    
+    section#portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footer_menu1 .portlet-content.portlet-content-editable .autofit-float.autofit-row.portlet-header{
+        display:none;
+    }
+    
+    section#portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footer_menu2 .portlet-content{
+        border-width:0;
+    }
+    
+    section#portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footer_menu2 .portlet-content.portlet-content-editable .autofit-float.autofit-row.portlet-header{
+        display:none;
+    }
+    
+    section#portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footer_menu3 .portlet-content{
+        border-width:0;
+    }
+    
+    section#portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footer_menu3 .portlet-content.portlet-content-editable .autofit-float.autofit-row.portlet-header{
+        display:none;
+    }
+    
+    section#portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footer_menu1, section#portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footer_menu2, section#portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footer_menu3{
+        margin-bottom:40px;
+    } 
+    
+    @media(max-width:767px){
+    section#portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footer_menu1 .portlet-topper,
+    section#portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footer_menu2 .portlet-topper,
+    section#portlet_com_liferay_site_navigation_menu_web_portlet_SiteNavigationMenuPortlet_INSTANCE_footer_menu3 .portlet-topper{
+        display:none;
+    }
+    }
 	
 }/* .footer-sec End */
 
