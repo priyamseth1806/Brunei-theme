@@ -9,33 +9,6 @@
 
 
 /*-- Preloader css start --*/
-
-#preloader {
-    background-color: #1a87c5;
-    bottom: 0;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 2147483647;
-    width: 100%;
-    height: 100%;
-}
-
-#status {
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: auto;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-}
-
 a {
     color: #797979;
     text-decoration: none;
@@ -87,7 +60,17 @@ ul {
     margin: 0;
     padding: 0;
 }
-
+.portlet-journal-content.portlet-barebone{
+     .portlet{
+        .portlet-header {
+            margin-bottom: 0;
+            position: absolute;
+            right: 2px;
+            top: 2px;
+            z-index: 1;
+        }
+    }
+}
 
 /* -------------------------------- 
 

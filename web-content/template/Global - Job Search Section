@@ -1,0 +1,90 @@
+<div class="jp_top_header_img_wrapper">
+<div class="jp_slide_img_overlay"></div>
+	<div class="jp_banner_heading_cont_wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+					<div class="jp_job_heading_wrapper">
+						<div class="jp_job_heading">
+						
+							<#if HeadingNumber?? && HeadingNumber.getData()?? && SubHeading?? && SubHeading.getData()?? && Heading?? && Heading.getData()??>
+						
+								<h1><span>${HeadingNumber.getData()}</span> ${Heading.getData()}</h1>
+								<p>${SubHeading.getData()}</p>
+							</#if>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+					<div class="jp_header_form_wrapper">
+						<div class="row">
+							<div class="col-lg-7 col-md-12 col-sm-12 col-12">
+								<div class="jp_form_keyword_wrapper">
+									<i class="fa icon-briefcase first_icon"></i>
+									<input type="text" placeholder="Keyword e.g. (Job Title, Description, Tags)">
+								</div>
+							</div>
+							<div class="col-lg-3 col-md-12 col-sm-12 col-12">
+								<div class="jp_form_exper_wrapper">
+									<i class="fa icon-time first_icon"></i><select>
+										<option>Experience</option>
+										<option>Experience</option>
+										<option>Experience</option>
+										<option>Experience</option>
+										<option>Experience</option>
+									</select><i class="fa icon-angle-down second_icon"></i>
+								</div>
+							</div>
+							<div class="col-lg-2 col-md-12 col-sm-12 col-12">
+								<div class="jp_form_btn_wrapper">
+									<ul>
+										<li><a href="#"><i class="fa icon-search"></i> Search</a></li>
+										<li class="adv_search"><a>+ Advance Search</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+					<div class="jp_banner_main_jobs_wrapper">
+						<div class="jp_banner_main_jobs">
+							<ul>
+								<#if TrendingKeywordText?? && TrendingKeywordText.getData()??>
+								<li><i class="fa icon-tags"></i> ${TrendingKeywordText.getData()}</li>
+								</#if>
+
+								<#if TrendingKeywordText.KeyWords?? && TrendingKeywordText.KeyWords.getSiblings()??>
+									<#list TrendingKeywordText.KeyWords.getSiblings() as cur_TrendingKeywordText>
+										<li><a href="#">${cur_TrendingKeywordText.getData()} </a></li>
+									</#list>
+								</#if>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="jp_banner_jobs_categories_wrapper">
+		<div class="container">
+			<div class="flex-box-cont">
+				<#if CategoryTitle?? && CategoryTitle.getSiblings()??>
+					<#list CategoryTitle.getSiblings() as cur_CategoryTitle>
+						<div class="jp_top_jobs_category_wrapper jp_job_cate_left_border jp_job_cate_left_border_bottom">
+							<div class="jp_top_jobs_category">
+							<#if cur_CategoryTitle.IconClass?? && cur_CategoryTitle.IconClass.getData()??>
+								<i class="fa ${cur_CategoryTitle.IconClass.getData()}"></i>
+							</#if>
+								<h3><a href="#"> ${cur_CategoryTitle.getData()} </a></h3>
+								<p>${cur_CategoryTitle.NumberOfJobs.getData()}</p>
+							</div>
+						</div>
+					</#list>
+				</#if>
+			</div>
+		</div>
+		
+	</div>
+</div>

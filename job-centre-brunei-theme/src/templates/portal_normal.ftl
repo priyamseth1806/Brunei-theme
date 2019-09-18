@@ -62,35 +62,7 @@
 		</p>
 	</footer>
 
-	<!--floating menu starts-->
-	  <div class="floatingButtonWrap">
-        <div class="floatingButtonInner">
-            <a href="#" class="floatingButton jp_img_btn">
-                 <span class="fa">   <img src="${images_folder}/jp_logo.jpg"> </span>      
-			</a>
-            <ul class="floatingMenu">
-                <li>
-                    <a href="#">
-                        FAQ
-                        <i class="fa icon-question" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                            Contact us
-                            <i class="fa icon-phone" aria-hidden="true"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                            Feedback
-                            <i class="fa icon-comment-alt" aria-hidden="true"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-	<!--floating menu ends-->
+
 </div>
 
 
