@@ -8,17 +8,18 @@
  }
   .count-description {
     margin-top: 30px;
+    color: #fff;
  }
   .count-description span {
     font-size: 50px;
-    color: #fff;
+    color:inherit;
     margin-top: 50px;
     font-weight: 800;
     position: relative;
  }
   .count-description i {
     font-size: 30px;
-    color: #fff;
+    color: inherit;
     padding-left: 10px;
     position: relative;
     top: -5px;
@@ -26,12 +27,13 @@
   h5.con {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
-    color: #fff;
+    color:inherit;
     margin-top: 40px;
  }
   .count-description span:before {
     content: '';
-    border: 1px solid #fff;
+    border: 1px solid;
+    color:inherit;
     width: 8px;
     position: absolute;
     bottom: -15px;
@@ -41,7 +43,8 @@
  }
   .count-description span:after {
     content: '';
-    border: 1px solid #fff;
+    border: 1px solid ;
+    color:inherit;
     width: 30px;
     position: absolute;
     bottom: -15px;

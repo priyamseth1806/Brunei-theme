@@ -11,7 +11,7 @@ margin-top: 30px;
 .spotlight_header_wrapper {
 float: left;
 width: 100%;
-background: #0e1427d4;
+background: $clr-head-grey;
 padding-top: 15px;
 padding-bottom: 15px;
 padding-left: 20px;
@@ -25,7 +25,7 @@ border-top-right-radius: 10px;
 
 .spotlight_header_wrapper h4 {
 font-size: 16px;
-color: #ffffff;
+color: $clr-white;
 }
 
 .jp_spotlight_slider_wrapper {
@@ -35,8 +35,8 @@ padding-top: 30px;
 padding-left: 30px;
 padding-right: 30px;
 padding-bottom: 40px;
-background: #ffffff;
-border: 1px solid #e9e9e9;
+background: $clr-white;
+border: 1px solid $clr-border;
 border-top: 0;
 -webkit-border-bottom-left-radius: 10px;
 -moz-border-bottom-left-radius: 10px;
@@ -156,8 +156,8 @@ height: 50px;
 text-align: center;
 line-height: 50px;
 font-weight: bold;
-background: #a6e043;
-color: #0e1427d4;
+background: $pri-clr-green;
+color: $clr-head-grey;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
 border-radius: 10px;
@@ -168,7 +168,7 @@ border-radius: 10px;
 transition: all 0.5s;
 }
 .jp_spotlight_slider_btn li a:hover {
-background: #fdd014;
+background: $pri-clr-yellow;
 -webkit-transition: all 0.5s;
 -o-transition: all 0.5s;
 -ms-transition: all 0.5s;

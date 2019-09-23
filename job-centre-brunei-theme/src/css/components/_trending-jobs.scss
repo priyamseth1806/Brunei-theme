@@ -26,7 +26,7 @@
     
     .jp_hiring_heading_wrapper h2:after {
         content: '';
-        border: 1px solid $pri_clr_green;
+        border: 1px solid $pri-clr-green;
         width: 30px;
         position: absolute;
         bottom: -15px;
@@ -35,7 +35,7 @@
     
     .jp_hiring_heading_wrapper h2:before {
         content: '';
-        border: 1px solid $pri_clr_green;
+        border: 1px solid $pri-clr-green;
         width: 8px;
         position: absolute;
         bottom: -15px;
@@ -125,8 +125,8 @@
     
     .ss_featured_products .owl-theme .owl-nav .owl-prev:hover,
     .ss_featured_products .owl-theme .owl-nav .owl-next:hover {
-        background: $pri_clr_green;
-        border: 1px solid $pri_clr_green;
+        background: $pri-clr-green;
+        border: 1px solid $pri-clr-green;
         color: $clr-white;
         -webkit-transition: all 0.5s;
         -o-transition: all 0.5s;
@@ -265,7 +265,7 @@
         height: 30px;
         line-height: 30px;
         text-align: center;
-        background: $pri_clr_green;
+        background: $pri-clr-green;
         color: #0e1427d4;
         font-size: 12px;
         font-weight: bold;
@@ -277,7 +277,7 @@
     }
     
     .jp_job_post_right_btn_wrapper li:first-child a:hover {
-        background: $pri_clr_yellow;
+        background: $pri-clr-yellow;
     }
     
     .jp_job_post_right_btn_wrapper li.btn-applied:first-child a {
@@ -356,7 +356,7 @@
     
     .jp_job_post_keyword_wrapper li i {
         padding-right: 5px;
-        color: $pri_clr_green;
+        color: $pri-clr-green;
         -webkit-transition: all 0.5s;
         -o-transition: all 0.5s;
         -ms-transition: all 0.5s;

@@ -8,6 +8,8 @@
 @import 'liferay-font-awesome/scss/glyphicons';
 @import 'font';
 
+@import "variables/colors";
+
 
 /* endinject */
 
@@ -21,7 +23,6 @@
         @import "components/breadcrum";                
         @import "footer";                		
         @import "variables/table";                		
-        @import "variables/colors";
         @import "vendor/owl.theme.default";
         @import "pages/iready-jobs";
         @import "pages/jcb-counter";
@@ -32,11 +33,12 @@
         @import "pages/job-seeker";
         @import "pages/news-ticker";
         @import "pages/upcoming-trainings";
+        @import "pages/Recently-Posted-Jobs";
         @import "vendor/owl.carousel";
         @import "components/floatingBtn";
         @import "components/trending-jobs";
         @import "pages/banner";
-        @import "components/two-column-boxes";
+        @import "components/two-column-boxes";        
     }
 }
 
