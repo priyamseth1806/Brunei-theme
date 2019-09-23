@@ -24,7 +24,7 @@ position: relative;
 
 .jp_hiring_heading_wrapper h2:after {
 content: '';
-border: 1px solid $pri_clr_green;
+border: 1px solid $pri-clr-green;
 width: 30px;
 position: absolute;
 bottom: -15px;
@@ -33,7 +33,7 @@ left: 11px;
 
 .jp_hiring_heading_wrapper h2:before {
 content: '';
-border: 1px solid $pri_clr_green;
+border: 1px solid $pri-clr-green;
 width: 8px;
 position: absolute;
 bottom: -15px;
@@ -96,7 +96,7 @@ transition: all 0.5s;
 }
 
 .jp_hiring_slider_wrapper .owl-theme .owl-prev:hover, .owl-theme .owl-next:hover {
-color: $clr_head_grey;
+color: $clr-head-grey;
 -webkit-transition: all 0.5s;
 -o-transition: all 0.5s;
 -ms-transition: all 0.5s;
@@ -163,7 +163,7 @@ display: inline-block !important;
 }
 
 .jp_hiring_content_main_wrapper:hover {
-border-color: $pri_clr_green;
+border-color: $pri-clr-green;
 -webkit-transition: all 0.5s;
 -o-transition: all 0.5s;
 -ms-transition: all 0.5s;

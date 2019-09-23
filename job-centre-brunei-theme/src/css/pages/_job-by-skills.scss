@@ -11,7 +11,7 @@ margin-top: 30px;
 .spotlight_header_wrapper {
 float: left;
 width: 100%;
-background: $clr_head_grey;
+background: $clr-head-grey;
 padding-top: 15px;
 padding-bottom: 15px;
 padding-left: 20px;
@@ -156,8 +156,8 @@ height: 50px;
 text-align: center;
 line-height: 50px;
 font-weight: bold;
-background: $pri_clr_green;
-color: $clr_head_grey;
+background: $pri-clr-green;
+color: $clr-head-grey;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
 border-radius: 10px;
@@ -168,7 +168,7 @@ border-radius: 10px;
 transition: all 0.5s;
 }
 .jp_spotlight_slider_btn li a:hover {
-background: $pri_clr_yellow;
+background: $pri-clr-yellow;
 -webkit-transition: all 0.5s;
 -o-transition: all 0.5s;
 -ms-transition: all 0.5s;

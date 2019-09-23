@@ -3,7 +3,7 @@
 .job-seeker-wrap{
 
 .job-seeker_header_wrapper{
-background: $clr_head_grey;
+background: $clr-head-grey;
 padding-top: 15px;
 padding-bottom: 15px;
 padding-left: 20px;
@@ -54,7 +54,7 @@ border-bottom: 1px solid #eee;
 transition: all 0.5s;
 }
 .jb_seeker_content:hover {
-color: $clr_head_grey;
+color: $clr-head-grey;
 -webkit-transition: all 0.5s;
 -o-transition: all 0.5s;
 -ms-transition: all 0.5s;
@@ -67,16 +67,16 @@ margin-top: 0;
 }
 .jb_seeker_content i {
 padding-right: 5px;
-color: $clr_head_grey;
+color: $clr-head-grey;
 }
 .jb_seeker_content span {
 float: right;
 }
 .jb_seeker_content a span {
-color: $clr_head_grey;
+color: $clr-head-grey;
 }
 .jb_seeker_content li:last-child:hover a, .jb_seeker_content li:last-child:hover i {
-color: $clr_head_grey;
+color: $clr-head-grey;
 -webkit-transition: all 0.5s;
 -o-transition: all 0.5s;
 -ms-transition: all 0.5s;
